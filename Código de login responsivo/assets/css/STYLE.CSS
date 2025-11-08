@@ -29,10 +29,17 @@ header{
 
 .nav-list{
     display:flex;
-    justify-content:center;
-    list-style:none;
+    align-items: center;
     
 }
+
+.nav-list ul{
+    display:flex;
+    justify-content: center;
+    list-style:none;
+}
+
+
 
 .nav-item{
     margin: 0 15px
